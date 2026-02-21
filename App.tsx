@@ -13,6 +13,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <div className="min-h-screen flex flex-col font-sans">
+        {import.meta.env.VITE_MY_SECRET && (
+          <div className="bg-blue-200 text-center p-2 font-bold">
+            The secret is: {import.meta.env.VITE_MY_SECRET}
+          </div>
+        )}
         <Navbar />
         <main className="flex-grow">
           <Routes>
