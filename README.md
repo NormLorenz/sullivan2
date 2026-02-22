@@ -1,8 +1,11 @@
 TODO: Add a new link for owner prerequistics (site prep) before construction begins.
+
 TODO: Figure out the public/assets folder.
+
 TODO: Play with secrets.
 
 https://sullivan-s-excavating-1028673508634.us-west1.run.app
+
 https://sullivan-s-excavating-1028673508634.us-west1.run.app
 
 ### How can a Google AI Studio application send email through a Gmail account. Please respond in markdown and code in node.js?
@@ -98,5 +101,6 @@ Key Considerations
 - Token Management: The initial run of a Gmail API script requires a one-time OAuth authorization to create a token.json file.
 - Rate Limits: Gmail has a daily sending limit of 2,000 messages (or 500 for trial accounts).
 - Encoding: The message must be converted to a base64url encoded string before sending. 
+
 
 
