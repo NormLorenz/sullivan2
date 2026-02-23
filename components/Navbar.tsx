@@ -62,14 +62,14 @@ export const Navbar: React.FC = () => {
               <Link 
                 key={link.name} 
                 to={link.path}
-                className={`text-sm font-bold uppercase tracking-widest hover:text-sullivan-primary transition-colors duration-300 ${location.pathname === link.path ? 'text-sullivan-primary' : 'text-white'}`}
+                className={`text-sm font-semibold tracking-wide hover:text-sullivan-primary transition-colors duration-200 ${location.pathname === link.path ? 'text-sullivan-primary' : 'text-white'}`}
               >
                 {link.name}
               </Link>
             ))}
             <Link to="/contact">
-                <button className="bg-sullivan-primary text-white px-5 py-2 text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-sullivan-primary transition-all duration-300 transform skew-x-[-12deg]">
-                    <span className="block skew-x-[12deg]">Get Quote</span>
+                <button className="bg-sullivan-primary text-white px-5 py-2.5 text-sm font-semibold tracking-wide rounded-md hover:bg-sullivan-secondary transition-all duration-200">
+                    Get Quote
                 </button>
             </Link>
           </div>
