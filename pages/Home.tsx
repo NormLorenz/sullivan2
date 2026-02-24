@@ -12,7 +12,7 @@ export const Home: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/assets/images/excavator-1936799_1920.jpg"
+            src="/assets/images/excavator-background-2.png"
             alt="Excavator at sunset" 
             className="w-full h-full object-cover"
           />
