@@ -22,7 +22,7 @@ export const Services: React.FC = () => {
             return (
               <div key={service.id} className="flex flex-col md:flex-row gap-6">
                 <div className="shrink-0">
-                  <div className="w-16 h-16 bg-sullivan-primary flex items-center justify-center text-white shadow-lg transform -rotate-3">
+                  <div className="w-16 h-16 bg-sullivan-primary flex items-center justify-center text-white shadow-lg rounded-full">
                     <IconComponent size={32} />
                   </div>
                 </div>
