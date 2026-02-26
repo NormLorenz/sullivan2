@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { fetchDataFromApi } from './services/apiService';
+import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -11,33 +10,6 @@ import { Testimonials } from './pages/Testimonials';
 import { Contact } from './pages/Contact';
 
 const App: React.FC = () => {
-  const [apiData, setApiData] = useState<any>(null);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const callApi = async () => {
-      try {
-        setLoading(true);
-        const data = await fetchDataFromApi();
-        setApiData(data);
-        setError(null);
-      } catch (err: any) {
-        setError(err.message);
-        setApiData(null);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (import.meta.env.VITE_SULLIVAN_API_KEY) {
-      callApi();
-    } else {
-      setLoading(false);
-      setError('VITE_SULLIVAN_API_KEY is not set. API call skipped.');
-    }
-  }, []);
-
   return (
     <Router>
       <div className="min-h-screen flex flex-col font-sans">

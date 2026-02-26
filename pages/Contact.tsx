@@ -10,8 +10,7 @@ export const Contact: React.FC = () => {
     name: '',
     email: '',
     phone: '',
-    message: '',
-    apiKey: '' // Optional for user to input
+    message: ''
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
@@ -26,7 +25,7 @@ export const Contact: React.FC = () => {
     try {
       await sendEmail(formData);
       setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '', apiKey: formData.apiKey }); // clear form but keep key if set
+      setFormData({ name: '', email: '', phone: '', message: '' }); // clear form
     } catch (error) {
       console.error(error);
       setStatus('error');
@@ -178,19 +177,6 @@ export const Contact: React.FC = () => {
                    ></textarea>
                  </div>
                  
-                 {/* Optional API Key Input for Testing */}
-                 <div className="pt-4 border-t border-gray-100">
-                    <p className="text-xs text-gray-400 mb-2">Optional: Enter a Resend.com API Key to test real email sending (Client-side only for demo)</p>
-                    <input 
-                      type="password"
-                      name="apiKey"
-                      value={formData.apiKey || ''}
-                      onChange={handleChange}
-                      placeholder="re_123456789..."
-                      className="w-full text-xs p-2 bg-gray-50 border border-gray-200 focus:border-sullivan-primary outline-none"
-                    />
-                 </div>
-
                  <Button 
                     type="submit" 
                     fullWidth 

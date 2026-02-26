@@ -24,5 +24,4 @@ export interface ContactFormState {
   email: string;
   phone: string;
   message: string;
-  apiKey?: string;
 }
