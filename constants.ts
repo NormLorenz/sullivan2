@@ -11,38 +11,50 @@ export const SERVICES: ServiceItem[] = [
   {
     id: '1',
     title: 'Site Preparation',
-    description: 'Complete site prep including clearing, grubbing, and leveling to ensure a solid foundation for your construction project.',
-    iconName: 'Shovel'
+    description: 'Prepare a level building site for construction including road building, land clearing, demolition of existing structures/obstacles, earthmoving and/or drainage.',
+    iconName: 'Map'
   },
   {
     id: '2',
-    title: 'Septic Systems',
-    description: 'Certified installation and repair of residential and commercial septic systems, ensuring compliance with all local health codes.',
-    iconName: 'Droplets'
+    title: 'Foundation Excavation',
+    description: 'Dig an area suitable for basements, crawlspaces and/or foundations in preparation for laying concrete forms.',
+    iconName: 'Home'
   },
   {
     id: '3',
-    title: 'Grading & Drainage',
-    description: 'Precision grading to protect your property from water damage and ensure proper drainage flow away from structures.',
-    iconName: 'TrendingDown'
-  },
-  {
-    id: '4',
     title: 'Demolition',
-    description: 'Safe and efficient demolition of structures, including debris removal and site cleanup ready for new development.',
+    description: 'Knock down single family dwellings, multi-family housing and/or commercial buildings. Remove demolition material and backfill area to provide a clean level space.',
     iconName: 'Hammer'
   },
   {
+    id: '4',
+    title: 'Utility Trenching',
+    description: 'Notifiy utilities and obtain necessary permits before trenching for water lines, sewer lines, hookups, water drainage pipes and/or catch basins.',
+    iconName: 'Zap'
+  },
+  {
     id: '5',
-    title: 'Driveways & Roads',
-    description: 'Installation of durable gravel and stone driveways, private roads, and access paths built to withstand heavy loads.',
-    iconName: 'Truck'
+    title: 'Land Clearing',
+    description: 'Provide qualified, experienced and affordable tree and stump removal.',
+    iconName: 'Trees'
   },
   {
     id: '6',
-    title: 'Utility Trenching',
-    description: 'Expert excavation for water lines, electric, and sewer utilities with minimal disruption to the surrounding area.',
-    iconName: 'Zap'
+    title: 'Finish Grading',
+    description: 'Dress up your site around new and existing homes to provide that professional appearance. Apply top soil based upon customer requirements.',
+    iconName: 'Ruler'
+  },
+  {
+    id: '7',
+    title: 'Driveways',
+    description: 'Build roads and driveways in difficult site and soil conditions ready for vehicular traffic. Overlay and pack with gravel as necessary.',
+    iconName: 'Truck'
+  },
+  {
+    id: '8',
+    title: 'Erosion Control',
+    description: 'Apply silt fence installation, french drains and positive drainage systems.',
+    iconName: 'ShieldAlert'
   }
 ];
 
@@ -169,5 +181,23 @@ export const TESTIMONIALS: TestimonialItem[] = [
     author: 'Mike Peterson',
     role: 'Local Developer',
     content: 'Honest pricing and incredible work ethic. They handled a difficult demolition project for us with ease. Highly recommended.'
+  },
+  {
+    id: '4',
+    author: 'Pat Lowery - Deer Lake',
+    role: 'Contractor',
+    content: 'We have used Sullivan Excavating for several jobs ranging from building site preparation to road construction. Each time the work has met or exceeded our expectation, was completed within the identified time constraints and as well as the cost estimates initially provided. We will continue to use their services and won’t hesitate to recommend them when asked!'
+  },
+  {
+    id: '5',
+    author: 'Donna Busch - Loon Lake',
+    role: 'Home Owner',
+    content: 'Our yard looks amazing. Even our neighbors are excited. He treated us how he would want someone to treat his own family. He\'s amazing. Thanks'
+  },
+  {
+    id: '6',
+    author: 'Robyn Deaton - Seattle',
+    role: 'Home Owner',
+    content: 'Erin Sullivan is a life saver. When I called him about an emergency sewer leak he came right over and did a fantastic job of repairing it. So when I had an emergency water leak I called him and once again he came right out and explained what I needed to do and was able to fix it the next day. I highly recommend him!'
   }
 ];

@@ -37,7 +37,7 @@ export const Home: React.FC = () => {
                 <Button variant="primary">Get a Free Quote</Button>
               </Link>
               <Link to="/projects">
-                <Button variant="outline">View Our Work</Button>
+                <Button variant="white">View Our Work</Button>
               </Link>
             </div>
           </div>
