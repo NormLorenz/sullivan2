@@ -31,8 +31,8 @@ export const Testimonials: React.FC = () => {
       <div className="bg-sullivan-primary py-16">
          <div className="container mx-auto px-4 text-center">
             <h3 className="font-header text-3xl font-bold text-white uppercase mb-4">Have you worked with us?</h3>
-            <p className="text-white/90 mb-8 max-w-xl mx-auto">We value your feedback. Let us know how we did on your latest project.</p>
-            <a href="/contact" className="inline-block bg-sullivan-dark text-white font-bold uppercase tracking-wider py-3 px-8 hover:bg-white hover:text-sullivan-dark transition-colors">
+            <p className="text-white/90 mb-8 max-w-xl mx-auto">We value your feedback. Let us know how we are doing.</p>
+            <a href="https://www.google.com/search?q=sullivan+excavating&rlz=1C1CHBF_enUS872US872&oq=Sullivan+excavating&aqs=chrome.0.0i355i457j46i175i199l2j0j0i22i30j69i61j69i60l2.12734j0j7&sourceid=chrome&ie=UTF-8#lrd=" target="_blank" rel="noopener noreferrer" className="inline-block bg-sullivan-dark text-white font-bold uppercase tracking-wider py-3 px-8 rounded-md hover:bg-white hover:text-sullivan-dark transition-colors">
                Leave a Review
             </a>
          </div>

@@ -8,7 +8,7 @@ export const About: React.FC = () => {
       <div className="bg-sullivan-dark text-white py-24 relative overflow-hidden">
          <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/gravel/1920/1080')] bg-cover bg-center opacity-20"></div>
          <div className="container mx-auto px-4 relative z-10 text-center">
-            <h1 className="font-header text-5xl md:text-6xl font-bold uppercase mb-4">About Sullivan's</h1>
+            <h1 className="font-header text-5xl md:text-6xl font-bold uppercase mb-4">About Us</h1>
             <div className="w-20 h-1 bg-sullivan-primary mx-auto"></div>
          </div>
       </div>

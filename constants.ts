@@ -5,7 +5,7 @@ export const COMPANY_PHONE = "(509) 936 2681";
 export const COMPANY_EMAIL = "sullivanexcavatinginc@gmail.com";
 export const COMPANY_ADDRESS = "PO Box 100 Valley, Washington 99181";
 export const COMPANY_LICENSE = "WA LIC # SULLIEI815D5";
-export const COMPANY_HOURS = "8:00 AM to 6:00 PM or until the job is done"
+export const COMPANY_HOURS = "7:00 AM to 6:00 PM or until the job is done"
 
 export const SERVICES: ServiceItem[] = [
   {
