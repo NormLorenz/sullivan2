@@ -30,7 +30,7 @@ export const Home: React.FC = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sullivan-primary to-orange-300">For The Future</span>
             </h1>
             <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
-              Sullivan’s Excavating delivers precision earthmoving, site preparation, and septic services. We move mountains to make your project a reality.
+              Sullivan Excavating, Inc. delivers precision earthmoving, site preparation and demolition services. We move mountains to make your project a reality.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/contact">
@@ -149,7 +149,7 @@ export const Home: React.FC = () => {
          <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#f97316 1px, transparent 1px)', backgroundSize: '32px 32px' }}></div>
          <div className="container mx-auto px-4 relative z-10 text-center">
             <h2 className="font-header text-4xl md:text-5xl font-bold text-white tracking-tight mb-6">Ready to Start Your Project?</h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-10">Contact Sullivan's Excavating today for a free consultation and estimate. No job is too big or too small.</p>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-10">Contact Sullivan Excavating, Inc. today for a free consultation and estimate. No job is too big or too small.</p>
             <Link to="/contact">
                <Button variant="primary" className="text-base px-8 py-4">Contact Us Now</Button>
             </Link>

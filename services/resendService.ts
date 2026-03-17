@@ -1,7 +1,7 @@
 import { ContactFormState } from '../types';
 
 export const sendEmail = async (data: ContactFormState): Promise<boolean> => {
-  // Call the Sullivan's Excavating Vercel Serverless Function middleware
+  // Call the Sullivan Excavating, Inc. Vercel Serverless Function middleware
   const endpoint = import.meta.env.VITE_VERCEL_API_URL || '/api/contact';
 
   try {

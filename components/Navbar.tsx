@@ -39,11 +39,11 @@ export const Navbar: React.FC = () => {
             <Phone size={14} className="text-sullivan-primary" />
             <span className="font-bold tracking-wide">{COMPANY_PHONE}</span>
           </div>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a href="#" className="hover:text-sullivan-primary transition-colors"><Facebook size={16} /></a>
             <a href="#" className="hover:text-sullivan-primary transition-colors"><Instagram size={16} /></a>
             <a href="#" className="hover:text-sullivan-primary transition-colors"><Linkedin size={16} /></a>
-          </div>
+          </div> */}
         </div>
       </div>
 

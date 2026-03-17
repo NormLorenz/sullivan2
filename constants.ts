@@ -1,6 +1,6 @@
 import { ServiceItem, ProjectItem, TestimonialItem } from './types';
 
-export const COMPANY_NAME = "Sullivan's Excavating";
+export const COMPANY_NAME = "Sullivan Excavating, Inc.";
 export const COMPANY_PHONE = "(509) 936 2681";
 export const COMPANY_EMAIL = "sullivanexcavatinginc@gmail.com";
 export const COMPANY_ADDRESS = "PO Box 100 Valley, Washington 99181";
@@ -67,7 +67,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     id: '2',
-    title: 'Residential Septic Install',
+    title: 'Residential Foundation Preparation',
     category: 'Residential',
     imageUrl: '/assets/images/MVIMG_20200603_133225.jpg'
   },
@@ -158,9 +158,87 @@ export const PROJECTS: ProjectItem[] = [
   {
     id: '17',
     title: 'Drainage System',
-    category: 'Municipal',
+    category: 'Residential',
     imageUrl: '/assets/images/6553263048.jpg'
-  }
+  },
+  {
+    id: '18',
+    title: 'Utilities',
+    category: 'Residential',
+    imageUrl: '/assets/images/sullivan-1.jpg'
+  },
+  {
+    id: '19',
+    title: 'Utilities',
+    category: 'Municipal',
+    imageUrl: '/assets/images/utilities-1.jpg'
+  },
+  {
+    id: '20',
+    title: 'Utilities',
+    category: 'Municipal',
+    imageUrl: '/assets/images/utilities-2.jpg'
+  },
+  {
+    id: '21',
+    title: 'Foundation',
+    category: 'Municipal',
+    imageUrl: '/assets/images/foundation-1.jpg'
+  },
+  {
+    id: '22',
+    title: 'Foundation',
+    category: 'Municipal',
+    imageUrl: '/assets/images/foundation-2.jpg'
+  },
+  {
+    id: '23',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/driveway-1.jpg'
+  },
+  {
+    id: '24',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/road-1.jpg'
+  },
+  {
+    id: '25',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/foundation-3.jpg'
+  },
+  {
+    id: '26',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/clearing-1.jpg'
+  },
+  {
+    id: '27',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/clearing-2.jpg'
+  },
+  {
+    id: '28',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/clearing-3.jpg'
+  },
+  {
+    id: '29',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/manito-1.jpg'
+  },
+  {
+    id: '30',
+    title: 'Driveway',
+    category: 'Residential',
+    imageUrl: '/assets/images/manito-2.jpg'
+  },
 ];
 
 export const TESTIMONIALS: TestimonialItem[] = [
@@ -168,7 +246,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     id: '1',
     author: 'John Anderson',
     role: 'Homeowner',
-    content: 'Sullivan\'s Excavating did a fantastic job on our new septic system. They were professional, timely, and left the site looking better than when they arrived.'
+    content: 'Sullivan\'s Excavating did a fantastic job on our new driveway. They were professional, timely, and left the site looking better than when they arrived.'
   },
   {
     id: '2',

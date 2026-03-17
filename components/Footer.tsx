@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
             <p className="text-gray-400 text-sm leading-relaxed">
               Providing top-tier excavating and site preparation services for residential, commercial, and municipal projects. Built on a foundation of trust and quality.
             </p>
-            <div className="flex space-x-4 pt-4">
+            {/* <div className="flex space-x-4 pt-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sullivan-primary transition-colors duration-300">
                 <Facebook size={18} />
               </a>
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sullivan-primary transition-colors duration-300">
                 <Linkedin size={18} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -47,7 +47,6 @@ export const Footer: React.FC = () => {
             <h4 className="font-header text-lg font-bold uppercase mb-6 tracking-wide">Services</h4>
             <ul className="space-y-3 text-gray-400">
               <li>Site Preparation</li>
-              <li>Septic Install & Repair</li>
               <li>Demolition</li>
               <li>Grading & Drainage</li>
               <li>Driveways</li>

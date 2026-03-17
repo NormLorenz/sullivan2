@@ -116,7 +116,7 @@ export const Contact: React.FC = () => {
              {status === 'success' ? (
                <div className="bg-green-50 border border-green-200 text-green-800 p-6 text-center">
                  <h4 className="font-bold text-xl mb-2">Message Sent!</h4>
-                 <p>Thank you for contacting Sullivan's Excavating. We will get back to you shortly.</p>
+                 <p>Thank you for contacting Sullivan Excavating, Inc. We will get back to you shortly.</p>
                  <button onClick={() => setStatus('idle')} className="mt-4 text-sm underline text-green-700 hover:text-green-900">Send another</button>
                </div>
              ) : (
