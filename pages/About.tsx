@@ -21,7 +21,7 @@ export const About: React.FC = () => {
             <div className="md:w-1/2">
                <h2 className="font-header text-3xl font-bold text-sullivan-dark uppercase mb-6">Our Story</h2>
                <p className="text-gray-600 mb-6 leading-relaxed">
-                  The Sullivan Family Construction Business was established in Seattle, Washington over 35 years ago. We are now pleased to be in the tri-county area (Steven, Spokane and Pend Oreille) to serve you. Our motto has always been 'PRIDE COMES FROM A JOB WELL DONE'.
+                  The Sullivan Family Construction Business was established in Seattle, Washington over 35 years ago. We are now pleased to be in the tri-county area (Stevens, Spokane and Pend Oreille counties) to serve you. Our motto has always been 'PRIDE COMES FROM A JOB WELL DONE'.
                </p>
                <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="flex items-center space-x-3">
