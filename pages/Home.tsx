@@ -21,24 +21,38 @@ export const Home: React.FC = () => {
 
         {/* Content */}
         <div className="container relative z-10 px-4 pt-20">
-          <div className="max-w-3xl">
-            <div className="inline-block bg-sullivan-primary/90 backdrop-blur-sm px-4 py-1.5 mb-6 rounded-full border border-white/20">
-                <span className="block text-white font-semibold uppercase tracking-widest text-xs">Serving the Community Since 1995</span>
+          <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+            <div className="max-w-3xl text-center md:text-left">
+              <div className="inline-block bg-sullivan-primary/90 backdrop-blur-sm px-4 py-1.5 mb-6 rounded-full border border-white/20">
+                  <span className="block text-white font-semibold uppercase tracking-widest text-xs">Serving the Community Since 1995</span>
+              </div>
+              <h1 className="font-header text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-6 drop-shadow-lg">
+                Building Foundations <br/>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sullivan-primary to-orange-300">For The Future</span>
+              </h1>
+              <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl mx-auto md:mx-0 leading-relaxed">
+                Sullivan Excavating, Inc. delivers precision earthmoving, site preparation and demolition services. We move mountains to make your project a reality.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                <Link to="/contact">
+                  <Button variant="primary">Get a Free Quote</Button>
+                </Link>
+                <Link to="/projects">
+                  <Button variant="white">View Our Work</Button>
+                </Link>
+              </div>
             </div>
-            <h1 className="font-header text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-6 drop-shadow-lg">
-              Building Foundations <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sullivan-primary to-orange-300">For The Future</span>
-            </h1>
-            <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
-              Sullivan Excavating, Inc. delivers precision earthmoving, site preparation and demolition services. We move mountains to make your project a reality.
-            </p>
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link to="/contact">
-                <Button variant="primary">Get a Free Quote</Button>
-              </Link>
-              <Link to="/projects">
-                <Button variant="white">View Our Work</Button>
-              </Link>
+            
+            <div className="flex flex-col items-center justify-center md:self-start md:-mt-12 lg:-mt-24 md:ml-auto">
+               <img 
+                 src="/assets/images/erin-sullivan.png" 
+                 alt="Erin Sullivan - Owner" 
+                 className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-2xl"
+               />
+               <div className="mt-4 bg-sullivan-dark/80 backdrop-blur-sm px-6 py-2 rounded-full border border-white/20 text-center">
+                 <span className="block text-white font-header font-bold text-lg">Erin Sullivan</span>
+                 <span className="block text-sullivan-primary text-sm font-semibold uppercase tracking-wider">Owner & Operator</span>
+               </div>
             </div>
           </div>
         </div>
@@ -138,6 +152,30 @@ export const Home: React.FC = () => {
                      <span className="font-header text-4xl font-bold text-sullivan-primary block mb-1">100%</span>
                      <span className="text-gray-500 text-xs uppercase tracking-widest font-semibold">Client Satisfaction</span>
                  </div>
+              </div>
+           </div>
+        </div>
+      </section>
+
+      {/* Meet the Owner */}
+      <section className="py-24 bg-sullivan-light border-t border-gray-200">
+        <div className="container mx-auto px-4">
+           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
+              <div className="md:w-1/3 flex justify-center">
+                 <img 
+                   src="/assets/images/erin-sullivan.png" 
+                   alt="Erin Sullivan - Owner" 
+                   className="w-64 h-64 rounded-full object-cover border-4 border-sullivan-primary shadow-xl"
+                 />
+              </div>
+              <div className="md:w-1/2 text-center md:text-left">
+                 <h2 className="font-header text-4xl font-bold text-sullivan-dark tracking-tight mb-4">Meet the Owner</h2>
+                 <p className="text-gray-500 text-lg leading-relaxed mb-6">
+                    Erin Sullivan brings decades of hands-on experience and a commitment to excellence to every job site. Leading the Sullivan Family Construction Business, Erin ensures that our motto—"Pride comes from a job well done"—is reflected in all our work across the tri-county area.
+                 </p>
+                 <Link to="/about">
+                    <Button variant="outline">Read Our Story</Button>
+                 </Link>
               </div>
            </div>
         </div>

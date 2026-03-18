@@ -61,14 +61,14 @@ export const SERVICES: ServiceItem[] = [
 export const PROJECTS: ProjectItem[] = [
   {
     id: '1',
-    title: 'Commercial Site Prep',
-    category: 'Commercial',
+    title: 'Peterbuilt Dump Truck',
+    category: 'Equipment',
     imageUrl: '/assets/images/MVIMG_20200603_133202.jpg'
   },
   {
     id: '2',
-    title: 'Residential Foundation Preparation',
-    category: 'Residential',
+    title: 'Komatsu Bulldozer',
+    category: 'Equipment',
     imageUrl: '/assets/images/MVIMG_20200603_133225.jpg'
   },
   {
@@ -182,13 +182,13 @@ export const PROJECTS: ProjectItem[] = [
   {
     id: '21',
     title: 'Foundation',
-    category: 'Municipal',
+    category: 'Residential',
     imageUrl: '/assets/images/foundation-1.jpg'
   },
   {
     id: '22',
     title: 'Foundation',
-    category: 'Municipal',
+    category: 'Residential',
     imageUrl: '/assets/images/foundation-2.jpg'
   },
   {
@@ -217,7 +217,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     id: '27',
-    title: 'Driveway',
+    title: 'Land Clearing',
     category: 'Residential',
     imageUrl: '/assets/images/clearing-2.jpg'
   },
@@ -229,13 +229,13 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     id: '29',
-    title: 'Driveway',
+    title: 'New Garage Site Prep',
     category: 'Residential',
     imageUrl: '/assets/images/manito-1.jpg'
   },
   {
     id: '30',
-    title: 'Driveway',
+    title: 'New Garage Site Prep',
     category: 'Residential',
     imageUrl: '/assets/images/manito-2.jpg'
   },
